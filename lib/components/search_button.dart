@@ -49,8 +49,7 @@ class _SearchButtonState extends State<SearchButton> {
                   ],
                 )
               : Padding(
-                  padding:
-                      const EdgeInsets.symmetric(horizontal: 15, vertical: 15),
+                  padding: const EdgeInsets.symmetric(horizontal: 15),
                   child: Row(
                     children: <Widget>[
                       Expanded(
@@ -58,7 +57,7 @@ class _SearchButtonState extends State<SearchButton> {
                           controller: _controller,
                           decoration: InputDecoration(
                             contentPadding:
-                                const EdgeInsets.symmetric(vertical: 8),
+                                const EdgeInsets.symmetric(vertical: 10),
                             hintText: 'Search member',
                             prefixIcon: const Icon(Icons.search),
                             border: OutlineInputBorder(
